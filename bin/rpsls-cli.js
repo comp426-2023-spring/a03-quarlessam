@@ -6,7 +6,7 @@ import minimist from 'minimist'
 
 const args = minimist(process.argv.slice(2))
 if (args.r || args.rules) {
-  rpsls('rules')
+  rpsls(-1)
   process.exit()
 }
 console.log(rpsls(args._[0]))
