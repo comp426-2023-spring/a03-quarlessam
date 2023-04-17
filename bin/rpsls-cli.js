@@ -17,6 +17,7 @@ Examples:
                     e.g. {"player":"rock"}
   node-rpsls rock   Return JSON with results for RPSLS played against a simulated opponent.
                     e.g {"player":"rock","opponent":"Spock","result":"lose"}`)
+  process.exit()
 }
 if (args.r || args.rules) {
   rpsls('rules')
